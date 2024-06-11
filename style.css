@@ -1,0 +1,37 @@
+body{
+background-color: gray;
+margin: 0;
+}
+.card{
+    width: 28%;
+    display: inline-block;
+    background-color: rgb(83, 77, 77);
+    border-radius: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    transition: 0.9s;
+}
+.card:hover{
+    width: 30%;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+img{
+width: 100%;
+border-radius: 10px
+}
+.text{
+    padding: 25px;
+}
+p { 
+    font-size: 16px;
+    color: gray;
+    margin: 15px 0;
+}
+a {
+    display: inline;
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
